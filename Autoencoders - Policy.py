@@ -18,8 +18,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 warnings.filterwarnings("ignore")
 
 # Load dataset
-df = pd.read_csv('/Users/i.seviantojensima/Desktop/Sem 5/Machine Learning/ml project/final.csv')
-
+df = pd.read_csv( "D:\Insurance-Policy-and-Fraud-Prediction\final.csv")
 # Check DataFrame shape
 print("Initial DataFrame shape:", df.shape)
 

@@ -10,7 +10,7 @@ from sklearn.metrics import roc_curve, roc_auc_score, mean_absolute_error
 import matplotlib.pyplot as plt
 
 # Load the data
-file_path = "/Users/i.seviantojensima/Desktop/Sem 5/Machine Learning/ml project/final.csv"
+file_path = "D:\Insurance-Policy-and-Fraud-Prediction\final.csv"
 data = pd.read_csv(file_path)
 
 # Clean column names

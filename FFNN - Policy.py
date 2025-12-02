@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 
 # Load the data
-file_path = "/Users/i.seviantojensima/Desktop/Sem 5/Machine Learning/ml project/final.csv"
+file_path = "D:\Insurance-Policy-and-Fraud-Prediction\final.csv"
 data = pd.read_csv(file_path)
 
 # Clean column names
@@ -81,7 +81,7 @@ from keras.callbacks import EarlyStopping # type: ignore
 import matplotlib.pyplot as plt
 
 # Load the data
-file_path = "/Users/i.seviantojensima/Desktop/Sem 5/Machine Learning/ml project/final.csv"
+file_path = "D:\Insurance-Policy-and-Fraud-Prediction\final.csv"
 data = pd.read_csv(file_path)
 
 # Clean column names

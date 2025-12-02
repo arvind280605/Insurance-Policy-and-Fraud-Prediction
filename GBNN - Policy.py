@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.callbacks import EarlyStopping # type: ignore
 
 # Load the data
-file_path = "/Users/i.seviantojensima/Desktop/Sem 5/Machine Learning/ml project/final.csv"
+file_path = "D:\Insurance-Policy-and-Fraud-Prediction\final.csv"
 data = pd.read_csv(file_path)
 
 # Clean column names

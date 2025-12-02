@@ -15,7 +15,7 @@ import plotly.graph_objs as go
 import plotly.io as pio
 
 # Load your dataset (adjust the path if needed)
-file_path = "/Users/i.seviantojensima/Desktop/Sem 5/Machine Learning/ml project/final.csv"
+file_path = "D:\Insurance-Policy-and-Fraud-Prediction\final.csv"
 data = pd.read_csv(file_path)
 
 # Sample a smaller dataset for faster testing

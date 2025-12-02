@@ -9,7 +9,7 @@ import keras_tuner as kt
 from keras.callbacks import EarlyStopping # type: ignore
 
 # Load the dataset
-data = pd.read_csv('/Users/i.seviantojensima/Desktop/Sem 5/Machine Learning/ml project/final.csv')
+data = pd.read_csv("D:\Insurance-Policy-and-Fraud-Prediction\final.csv")
 
 # Preprocessing
 data.ffill(inplace=True)  # Fill missing values
